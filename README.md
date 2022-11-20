@@ -1,6 +1,14 @@
 # psx-ble
 PSX Controller to BLE Adapter
 
+Required libraries:
+
+* ESP32-BLE-Gamepad - https://github.com/lemmingDev/ESP32-BLE-Gamepad
+* NimBLE - https://github.com/h2zero/NimBLE-Arduino
+* PsxNewLib - https://github.com/SukkoPera/PsxNewLib
+* DigitalIO - https://github.com/greiman/DigitalIO
+* Battery18650Stats - https://github.com/danilopinotti/Battery18650Stats
+
 Wiring:
 ```
 PSX - Pin Description - ESP32

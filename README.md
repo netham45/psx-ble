@@ -2,7 +2,7 @@
 PSX Controller to BLE Adapter
 
 Wiring:
-
+```
 PSX - Pin Description - ESP32
 1   - Data (MISO)     - 19 (VSPI_MISO) - Pulled to 3.3v with a 1k resistor
 2   - Command (MOSI)  - 23 (VSPI_MOSI) - Pulled to 3.3v with a 1k resistor
@@ -13,6 +13,7 @@ PSX - Pin Description - ESP32
 7   - Clock (SCK)     - 18 (VSPI_CLK)
 8   - Unused          - No Connection
 9   - Acknowledge     - No Connection
+```
 
 Touch line:  Pin 4 on ESP32
 
